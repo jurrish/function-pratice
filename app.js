@@ -28,7 +28,7 @@ function sumAndMultiply(numOne, numTwo, numThree){
 //p4
 function sumArray(oneArray){
   var sumNow = 0;
-  for (i = 0; i < oneArray.length; i++) {
+  for (var i = 0; i < oneArray.length; i++) {
     numNow = oneArray[i];
     sumNow += numNow;
     console.table(oneArray);
@@ -37,4 +37,14 @@ function sumArray(oneArray){
   return sumNow;
 }
 
-//p5 Thanks to Stephanie Hansen for the codereview
+//p5 Thanks to Stephanie Hansen for the codereview and help!
+function multiplyArray(arrayOfUser){
+  var numberOutput = 1;
+  for(var i = 0; i < arrayOfUser.length; i++){
+    currentNum = arrayOfUser[i];
+    numberOutput *= currentNum;
+  }
+  console.table(arrayOfUser);
+  console.log('The numbers ' + arrayOfUser + ' have a product of ' + numberOutput);
+  return numberOutput;
+}
