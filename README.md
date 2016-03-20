@@ -23,5 +23,5 @@ same with multiply
  -then wherever the program was at, it would take that and add it to the number in the sequence
  -lastly, the value is returned as a number
 
- #fifth problem
- 
+#fifth problem
+-created a function named multiplyArray that takes the user defined array (arrayOfUser) and multiplies the indexed numbers together and returns the value of the product.  
