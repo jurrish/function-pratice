@@ -24,3 +24,17 @@ function sumAndMultiply(numOne, numTwo, numThree){
   console.log(numOne + ' and ' + numTwo + ' and ' + numThree + ' have a product of ' + lastMult);
   return [lastSum, lastMult];
 }
+
+//p4
+function sumArray(oneArray){
+  var sumNow = 0;
+  for (i = 0; i < oneArray.length; i++) {
+    numNow = oneArray[i];
+    sumNow += numNow;
+    console.table(oneArray);
+    console.log(oneArray + ' was passed in as an array of numbers, and ' + sumNow + ' is their sum.');
+  }
+  return sumNow;
+}
+
+//p5 Thanks to Stephanie Hansen for the codereview
